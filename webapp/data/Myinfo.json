@@ -1,0 +1,22 @@
+{
+	"firstName": "takieddin",
+	"lastName": "Mohamad",
+	"city": "Gifhorn",
+	"company": "SopraSteria",
+	"address": {
+		"street": "Resedaweg 3",
+		"city": "Gifhorn",
+		"zip": "38518",
+		"country": "DE"
+	},
+	"hobbies":[{
+		"name": "tennis",
+		"skill": "medium"
+	}, {
+		"name": "soccer",
+		"skill": "low"	
+}, {
+		"name": "chess",
+		"skill": "low"	
+	}] 
+}
