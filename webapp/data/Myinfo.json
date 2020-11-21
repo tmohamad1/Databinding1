@@ -1,12 +1,12 @@
 {
 	"firstName": "ZARA",
 	"lastName": "Zara",
-	"city": "Gifhorn",
+	"city": "Braunschweig",
 	"company": "SAP",
 	"address": {
 		"street": "Blumen Straße 3",
-		"city": "Gifhorn",
-		"zip": "38518",
+		"city": "Braunschweig",
+		"zip": "39100",
 		"country": "DE"
 	},
 	"hobbies":[{
