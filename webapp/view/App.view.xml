@@ -1,0 +1,35 @@
+<mvc:View controllerName="com.sapDatabinding1.controller.App" 
+		  xmlns:html="http://www.w3.org/1999/xhtml" 
+		  xmlns:mvc="sap.ui.core.mvc"
+		  xmlns:l="sap.ui.layout"
+	      displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Panel headerText="{i18n>myInfo}" class="sapUiResponsiveMargin" width="auto">
+						<content>
+							<l:VerticalLayout>
+								<Label text="{i18n>firstName}" class="sapUiTinyMarginTop"></Label>
+								<Text text="{/firstName}"></Text>
+								<Label text="{i18n>lastName}" class="sapUiTinyMarginTop"></Label>
+								<Text text="{/lastName}"/>
+								<Label text="{i18n>address}" class="sapUiTinyMarginTop"></Label>
+								<Text text="{/address/city}"/>
+								<Text text="{/address/zip}"/>
+								<Text text="{/address/country}"/>
+								<Label text="{i18n>hobbies}" class="sapUiTinyMarginTop"></Label>
+								<List items="{/hobbies}">
+									<StandardListItem title="{name}" description="{skill}">
+									</StandardListItem>
+								</List>
+		
+								
+							</l:VerticalLayout>
+						</content>
+					</Panel>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
